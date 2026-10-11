@@ -64,7 +64,7 @@ Os dois algoritmos podem ordenar por título, autor, gênero, ano, ID, exemplare
 
 ### Opção mais simples: baixar pelo navegador
 
-1. Abra o repositório `eda2-2026/G26_Busca_EDA2-2026.2` no GitHub.
+1. Abra o repositório `eda2-2026/G26_Ordenacao_EDA2-2026.2` no GitHub.
 2. Clique em **Code > Download ZIP**.
 3. Extraia o arquivo.
 4. Dê dois cliques em `iniciar.bat` no Windows.
@@ -72,8 +72,8 @@ Os dois algoritmos podem ordenar por título, autor, gênero, ano, ID, exemplare
 ### Clonando o Projeto
 
 ```bash
-git clone https://github.com/eda2-2026/G26_Busca_EDA2-2026.2.git
-cd G26_Busca_EDA2-2026.2
+git clone https://github.com/eda2-2026/G26_Ordenacao_EDA2-2026.2.git
+cd G26_Ordenacao_EDA2-2026.2
 python app.py
 ```
 
@@ -145,6 +145,8 @@ O sistema foi desenvolvido para uso local por uma instância de cada vez. Não i
 
 | Gabriel Ferreira | Maria Laura Cabral |
 | :---: | :---: |
+| <img src="https://github.com/diangellis.png" width="120" alt="Gabriel Ferreira" /> | <img src="https://github.com/Maria-Laura-Regis.png" width="120" alt="Maria Laura Cabral" /> |
 | Matrícula: **242004671** | Matrícula: **232005361** |
 | [@diangellis](https://github.com/diangellis) | [@Maria-Laura-Regis](https://github.com/Maria-Laura-Regis) |
+
 
