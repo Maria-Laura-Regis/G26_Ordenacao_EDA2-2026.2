@@ -38,11 +38,8 @@ def merge_sort(items, key=lambda x: x, reverse=False):
     return result + left[i:] + right[j:]
 
 def quick_sort(items, key=lambda x: x, reverse=False):
-    """Quick Sort iterativo com partição em três vias e pivô mediana de três.
+    # Quick Sort iterativo com partição em três vias e pivô mediana de três cresce no máximo O(log n).
 
-    Não é estável. A partição em três vias evita degradação com chaves repetidas
-    e, ao empilhar sempre a parte maior, a pilha cresce no máximo O(log n).
-    """
     pares = [(key(x), x) for x in items]
     def antes(a, b):
         return a > b if reverse else a < b
@@ -74,11 +71,8 @@ def quick_sort(items, key=lambda x: x, reverse=False):
     return [item for _, item in pares]
 
 def radix_sort_msd(items, key=lambda x: x, reverse=False, digitos=4):
-    """Radix Sort MSD em base 10 para inteiros de 0 a 10**digitos - 1.
+    # Radix Sort MSD em base 10 para inteiros de 0 a 10**digitos - 1.
 
-    Distribui os itens em baldes pelo dígito mais significativo e ordena cada
-    balde pelo dígito seguinte. É estável nos dois sentidos.
-    """
     limite = 10 ** digitos
     pares = []
     for item in items:
